@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="card">
+        <h1>01</h1>
+        <div class="container">
+            <img src="images/male.png" alt="boy">
+            <div class="card-body">
+                <h3>code with @j</h3>
+                <p>full stack developer</p>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <h1>02</h1>
+        <div class="container">
+            <img src="images/download.png" alt="boy">
+            <div class="card-body">
+                <h3>miss. coder</h3>
+                <p>full stack developer</p>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <h1>03</h1>
+        <div class="container">
+            <img src="images/boy.jpg" alt="boy">
+            <div class="card-body">
+                <h3>stack harry</h3>
+                <p>full stack developer</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        reverse: true,
+        max: 25,
+        speed: 300,
+        scale:1,
+        glare:true
+      });
+
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+  </body>
+</html>
